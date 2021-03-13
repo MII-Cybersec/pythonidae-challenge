@@ -13,6 +13,7 @@ This challenge may not be directly related to Cyber Security. But efficiently pr
 You will see
 
 - `String` manipulation
+- `Number` operation
 - `List` manipulation
 - `Dictionary` manipulation
 
@@ -31,6 +32,12 @@ Modify partial or whole string and transform it to our needs.
 8. Do `XOR` of two hexpair string with different length.
 9. Print all permutation of string.
 10. Given string `S` and array of integer `P`. Do reposition using `P` as index of new string.
+
+#### Number Operation
+
+0. compute the `GCD` of two numbers.
+1. list all factors of N.
+2. check the range which include the given integer.
 
 #### List Manipulation
 
