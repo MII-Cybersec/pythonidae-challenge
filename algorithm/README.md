@@ -13,6 +13,7 @@ This challenge may not be directly related to Cyber Security. But efficiently pr
 You will see
 
 - `String` manipulation
+- `List` manipulation
 - `Dictionary` manipulation
 
 #### String Manipulation
@@ -30,6 +31,23 @@ Modify partial or whole string and transform it to our needs.
 8. Do `XOR` of two hexpair string with different length.
 9. Print all permutation of string.
 10. Given string `S` and array of integer `P`. Do reposition using `P` as index of new string.
+
+#### List Manipulation
+
+0. find maximum element from non-sorted list.
+1. multiply each element of list with `3`
+2. sum all item of odd index.
+3. given list of string, sort by length.
+4. take all unique element from list.
+5. pick all unique element from list.
+6. pick random item from list.
+7. shuffle the position of each item.
+8. flatten 2-dimension list to 1-dimension list.
+9. given integer S and E with S < E. Create a list of unique integer with value in the range S to E. The position of value is random.
+10. given a string S, create a list of integer with each element is ASCII representation of S.
+11. pick all items common in two list.
+12. zipping element of two list.
+13. partition, split a list every N items.
 
 #### Dictionary Manipulation
 
