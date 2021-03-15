@@ -13,6 +13,7 @@ The goal of cryptography is to securely sharing secrets with others so no advers
 You will see
 
 - `Encoding`
+- `Cipher` (Classic)
 
 #### Encode
 
@@ -23,3 +24,16 @@ Encoding is conversion of data from one form to other form. Usually reduce loss 
 2. url.
 3. uu encoding.
 4. xx encoding.
+
+#### Cipher
+    
+classic
+
+0. ROT13
+1. Atbash
+2. Affine
+3. Rail-Fence
+4. Vigenere
+5. Beaufort
+6. ADFGVX
+7. Playfair
