@@ -13,7 +13,7 @@ The goal of cryptography is to securely sharing secrets with others so no advers
 You will see
 
 - `Encoding`
-- `Cipher` (Classic, Block, Stream)
+- `Cipher` (Classic, Block, Stream, Asymmetric)
 
 #### Encode
 
@@ -52,3 +52,13 @@ block
 stream
 
 0. Salsa20
+
+asymmetric
+
+0. generate RSA key-pair and store in PEM.
+1. generate RSA key-pair and store in PEM protected by passphrase.
+2. read the public key from PEM file and do RSA encryption.
+3. read the private key from PEM file and do RSA decryption.
+4. generate ECC key-pair and store in PEM protected by passphrase.
+5. read the private key from PEM file and do ECC encryption.
+6. read the public key from PEM file and do ECC decryption.
