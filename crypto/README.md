@@ -13,7 +13,7 @@ The goal of cryptography is to securely sharing secrets with others so no advers
 You will see
 
 - `Encoding`
-- `Cipher` (Classic)
+- `Cipher` (Classic, Block)
 
 #### Encode
 
@@ -37,3 +37,14 @@ classic
 5. Beaufort
 6. ADFGVX
 7. Playfair
+
+block
+
+0.  generate random bytes for key
+1.  DES
+2.  3DES
+3.  AES/ECB
+4.  AES/CBC
+5.  validate PKCS#7 and strip
+6.  AES/CTR
+7.  Camellia
