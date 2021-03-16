@@ -12,8 +12,19 @@ This challenge consists of several activites relate to binary analysis, exploit 
 
 You will see
 
+- Executable `parsing`
 - `Disassembly`
 - `Interoperable`
+
+#### Executable Parsing
+
+0. open executable (PE/ELF) and determine the target architecture.
+1. get the entrypoint address from executable (PE/ELF).
+2. list all sections with their size and permission.
+3. list the name and address of all imported functions.
+4. compute the entropy of each section.
+5. list all printable string which length exceed certain number.
+6. list all entries (name, offset) of relocation table.
 
 #### Disassembly
 
