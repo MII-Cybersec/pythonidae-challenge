@@ -13,6 +13,7 @@ Interaction to web can be sending request and process response from web applicat
 You will see
 
 - HTTP `Request`
+- Web `scraping` 
 
 #### HTTP Request
 
@@ -25,3 +26,14 @@ You will see
 6. send request with JWT token in header.
 7. use multiple random user-agent to send request.
 8. send back a response within duration.
+
+#### Web Scraping 
+
+0. list all URL in page.
+1. load response and search for flag on certain flag.
+2. list all URL to JS file in page.
+3. load image by URL.
+4. list all valid email address.
+5. get string inside a script
+6. get value inside an embedded script.
+7. find username and password field then brute force.
