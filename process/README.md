@@ -12,6 +12,7 @@ You will see
 
 - Process or `Multiprocessing`
 - `Subprocess`.
+- Thread or `Multithreading`
 
 #### Multiprocess
 
@@ -25,3 +26,10 @@ You will see
 1. connect output-pipe to subprocess.
 2. get the exit code of subprocess.
 3. pipe all I/O, give string as input and get output by pipe.
+
+#### Multithread
+
+0. spawn 5 threads and print a unique string for each thread.
+1. create list of N elements, spawn 5 threads which consume 1/5 portion of list.
+2. create a global-variable, spawn 5 threads which change the value and sleep for random duration. Every thread implement lock.
+3. create a queue, spawn 5 threads, each thread will take element from queue.
