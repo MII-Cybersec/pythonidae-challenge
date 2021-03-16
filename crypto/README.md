@@ -13,7 +13,7 @@ The goal of cryptography is to securely sharing secrets with others so no advers
 You will see
 
 - `Encoding`
-- `Cipher` (Classic, Block)
+- `Cipher` (Classic, Block, Stream)
 
 #### Encode
 
@@ -48,3 +48,7 @@ block
 5.  validate PKCS#7 and strip
 6.  AES/CTR
 7.  Camellia
+
+stream
+
+0. Salsa20
