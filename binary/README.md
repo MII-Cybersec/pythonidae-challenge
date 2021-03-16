@@ -13,6 +13,7 @@ This challenge consists of several activites relate to binary analysis, exploit 
 You will see
 
 - `Disassembly`
+- `Interoperable`
 
 #### Disassembly
 
@@ -22,3 +23,10 @@ You will see
 3. create statistic of registers (source, destination).
 4. list all memory addresses.
 5. map all branching operations as (source, destination) tuple.
+
+#### Interoperable
+
+0. call function from shared library (DLL / SO) based on function name.
+1. get the return value of function call.
+2. pass mutable string and print string after function call.
+3. pass structure to function.
