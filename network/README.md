@@ -11,6 +11,7 @@ This is `Network Technology Set`. This set involve any network interactions, fro
 This set consists of:
 
 - [Socket](socket) programming (client/server/raw)
+- [Protocol](protocol) communication (client/server)
 
 #### Socket Programming
 
@@ -38,3 +39,32 @@ Raw
 1. Extract IP addresses from IP header.
 2. Extract MAC addresses from ethernet header. 
 3. Send packet with SYN flag activated.
+
+#### Protocol Communication
+
+client
+
+0. HTTP client for enumerating file and directory
+1. FTP client for bruteforcing username and password.
+2. FTP client for listing home directory.
+3. SSH client for bruteforcing username and password.
+4. SSH client for executing command on remote host.
+5. SSH client for login with SSH key.
+6. SMTP client for enumerating valid user with SMTP VRFY command.
+7. SMTP client for enumerating valid user with SMTP RCPT TO command
+8. POP client for bruteforcing username and password.
+9. IMAP client for bruteforcing username and password.
+10. SMB client for bruteforcing username and password.
+11. Client for sending ICMP ECHO request with payload `MII Cyber Security`.
+12. DNS client for mapping subdomain from DNS server.
+13. SSH tunnelling.
+
+server
+
+0. HTTP server which send `Super Normal Web Server` as response.
+1. DNS server which always response with IP 127.0.0.1
+2. DNS server which provide TXT record with message `Command to execute`.
+3. FTP server which logging all login attempt.
+4. FTP server which responding directory listing command with static result.
+5. SSH server which logging all login attempt.
+6. SSH server which responding command with message `command not found` for every command.
