@@ -14,6 +14,7 @@ You will see
 
 - `Encoding`
 - `Cipher` (Classic, Block, Stream, Asymmetric, Attack)
+- `Hash` & `MAC`
 
 #### Encode
 
@@ -69,3 +70,12 @@ attack
 1. breaking single-byte XOR encryption
 2. breaking repeating-key XOR encryption
 3. detecting AES/ECB
+
+#### Hash
+
+0. md5 
+1. md5 with salt (append, prepend)
+2. sha-256
+3. sha3-256
+4. bcrypt
+5. hmac
