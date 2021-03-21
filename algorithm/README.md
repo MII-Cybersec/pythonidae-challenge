@@ -55,6 +55,9 @@ Modify partial or whole string and transform it to our needs.
 11. pick all items common in two list.
 12. zipping element of two list.
 13. partition, split a list every N items.
+14. partition, split a list into N partitions.
+15. build a list of integers starting from 1 to `N`, excluding multiples of `K`.
+16. range expansion.
 
 #### Dictionary Manipulation
 
