@@ -12,6 +12,7 @@ You will see
 
 - `Access`.
 - `Parsing`.
+- `Raw` data
 
 #### Access
 
@@ -30,3 +31,7 @@ Parsing and processing structured data.
 3. read and parse CSV file.
 4. parse structured binary file with fix size. 
 5. parse index file.
+
+#### Raw Data
+
+0. extract or dump MBR from disk.
