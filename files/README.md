@@ -11,6 +11,7 @@ THis is `Files Set`. This set is related to files and directories access, parsin
 You will see
 
 - `Access`.
+- `Compression`.
 - `Parsing`.
 - `Raw` data
 
@@ -20,6 +21,17 @@ Read and write files or directories.
 
 0. list all filename and directory name on given path.
 1. recursively listing, limited by depth.
+
+#### Compression
+
+Compress/decompress data or archive file.
+
+0. decompress in-memory data with `DEFLATE`.
+1. decompress in-memory data with `LZMA`.
+2. decompress in-memory data with `GZIP`.
+3. decompress in-memory data with `BZIP2`.
+4. read list of files from `TAR` archive.
+5. read list of files from `ZIP` archive.
 
 #### Parsing
 
