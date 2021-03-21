@@ -16,6 +16,7 @@ You will see
 - `Number` operation
 - `List` manipulation
 - `Dictionary` manipulation
+- `Regular Expression`
 
 #### String Manipulation
 
@@ -72,3 +73,16 @@ Modify partial or whole string and transform it to our needs.
 8. given list of dictionary, sort the list by the value of certain key.
 9. given list of dictionary, remove certain key from each dictionary.
 10. create a list of dictionary by two lists as values.
+
+#### Regular Expression
+
+Regular Expression, or regex, is a special text string for describing a search pattern.
+
+0. find and extract IP address (IPv4)
+1. find and extract IP address (IPv6)
+2. find and extract domain name.
+3. find and extract valid email address.
+4. find and extract SSN (Social Security Number).
+5. find and extract 3-digit numbers.
+6. find and extract HTML tag.
+7. find and extract fields from /etc/shadow password.
