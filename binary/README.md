@@ -25,6 +25,10 @@ You will see
 4. compute the entropy of each section.
 5. list all printable string which length exceed certain number.
 6. list all entries (name, offset) of relocation table.
+7. modify section as writable and executable.
+8. list all sections which have empty space before end of section.
+9. find the last section of executable and add `N` pages after the end.
+10. create minimalistic executable which will run shellcode.
 
 #### Disassembly
 
